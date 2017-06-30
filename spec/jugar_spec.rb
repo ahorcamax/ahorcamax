@@ -5,7 +5,7 @@ describe Palabra do
 		palabra = Palabra.new
 		palabra.generarPalabra
 		result = palabra.encriptar
-		expect(result).to eq " _ _ _ _ _ _ "
+		expect(result).to eq "-----"
 	end
 
 	it "Debe cambiar la palabra a adivinar cuando la letra es acertada" do
@@ -13,7 +13,7 @@ describe Palabra do
 		pa = palabra.generarPalabra
 		pe = palabra.encriptar
 		result = palabra.buscarLetra pa, "C"
-		expect(result).to eq " C _ _ _ _ _ "
+		expect(result).to eq "-C---"
 
 	end
 
