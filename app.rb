@@ -1,15 +1,22 @@
 require 'sinatra'
 require './config'
+require './lib/palabra.rb'
 
 get '/' do
-	session["palabra"] = "_ _ _ _ _"
 	erb(:index)
 end
 
-post '/jugar' do
+get '/jugar1' do
+	session["palabra"] = "_ _ _ _ _ _"
+	erb(:jugar)
+end
+
+post '/jugar2' do
+	p = Palabra.new
+	session["palabraAdivinar"] = p.generarPalabra
 	ingreseLetra = params['ingreseLetra']
-	session["ingreseLetra"] = ingreseLetra
-	session["palabra"] = "_ _ _ _ _"
+	session["palabra"] = "_ _ _ _ _ _"
+	erb(:jugar)
 end
 
 get '/finalizar' do

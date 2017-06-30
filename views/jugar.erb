@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<center>
+	<h1><%= session["palabra"] %></h1>
+	<form action="/jugar2" method="post">
+		<input type="text" name="ingreseLetra" maxlength="1" style="width:10px">
+		<input type="submit" value="Validar">
+	</form>
+	</center>
+</body>
+</html>

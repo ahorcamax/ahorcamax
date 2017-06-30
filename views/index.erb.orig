@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<<<<<<< HEAD
+	<center>
+	<h1>Bienvenidos a AhorcaMax</h1>
+	<form action="/jugar" method="post">
+		<input type="text" name="ingreseLetra" maxlength="1" style="width:10px">
+		<input type="submit" value="Validar">
+	</form>
+	</center>
+=======
+
+>>>>>>> 1ec3bfcb3a6b8111b045bb140ac3fe11e8a8cfaa
+</body>
+</html>
