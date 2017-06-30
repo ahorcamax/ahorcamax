@@ -12,7 +12,7 @@ end
 
 
 Dado(/^que finaliza el juego$/) do
-  visit '/jugar'
+  visit '/finalizar'
 end
 
 Dado(/^"([^"]*)"$/) do |texto|

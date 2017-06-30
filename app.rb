@@ -12,3 +12,6 @@ post '/jugar' do
 	session["palabra"] = "_ _ _ _ _"
 end
 
+get '/finalizar' do
+	erb(:finalizar)
+end

@@ -11,8 +11,10 @@ post '/jugar' do
 	ingreseLetra = params['ingreseLetra']
 	session["ingreseLetra"] = ingreseLetra
 	session["palabra"] = "_ _ _ _ _"
-=======
-get '/jugar' do
-	erb(:finalizar)
->>>>>>> 53891ed795d29531d9e80ca44c7a72e4eac0ae02
 end
+
+=======
+get '/finalizar' do
+	erb(:finalizar)
+end
+>>>>>>> 8d8c40e3cc12452f225544abb229974c582f4d31
