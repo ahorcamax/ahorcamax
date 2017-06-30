@@ -5,13 +5,12 @@ class Palabra
 	end
 
 	def encriptar
-
 		@palabra = " _"*@palabra.size
-		@palabra = @palabra+" "
-		
+		@palabra = @palabra+" "		
 	end
 
 	def buscarLetra palabra, letra
+		
 		@palabra = " C _ _ _ _ _ "		
 	end
 

@@ -7,6 +7,7 @@ get '/' do
 end
 
 get '/jugar1' do
+	session["palabra"] = " _ _ _ _ _ _ "
 	p = Palabra.new
 	session["palabraAdivinar"] = p.generarPalabra
 	session["palabra"] = p.encriptar
