@@ -1,7 +1,12 @@
 class Palabra
 
 	def generarPalabra
-		"CODIGO"
+		@palabra = "CODIGO"
+	end
+
+	def encriptar
+		pe = @palabra.sub("_ ")
+		
 	end
 
 end
