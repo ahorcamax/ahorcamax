@@ -7,10 +7,5 @@ Característica:
 
 Escenario: debo poder visualizar un titulo de Game Over
 	Dado que finaliza el juego
-	Y "Gane"
-	Entonces debo ver "Game Over"
-
-Escenario: debo poder visualizar un titulo de Game Over
-	Dado que finaliza el juego
-	Y "Perdi"
+	Y "Ganaste"
 	Entonces debo ver "Game Over"

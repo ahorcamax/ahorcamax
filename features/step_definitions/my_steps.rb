@@ -6,8 +6,13 @@ Entonces(/^visualizo el campo de la palabra a adivinar "([^"]*)"$/) do |texto|
 	expect(page.body).to match /#{texto}/m
 end
 
+Entonces(/^ingreso una letra en la caja "([^"]*)"$/) do |arg1|
+
+end
+
+
 Dado(/^que finaliza el juego$/) do
-  visit '/'
+  visit '/jugar'
 end
 
 Dado(/^"([^"]*)"$/) do |texto|
