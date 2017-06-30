@@ -3,7 +3,11 @@ Dado(/^que abro el juego$/) do
 end
 
 Dado(/^me encuentro en la pantalla jugar$/) do
+<<<<<<< HEAD
+	visit '/jugar/1'
+=======
 	visit '/jugar1'
+>>>>>>> 1ec3bfcb3a6b8111b045bb140ac3fe11e8a8cfaa
 end
 
 Entonces(/^visualizo el campo de la palabra a adivinar "([^"]*)"$/) do |texto|	

@@ -21,4 +21,5 @@ end
 
 get '/finalizar' do
 	erb(:finalizar)
+	
 end

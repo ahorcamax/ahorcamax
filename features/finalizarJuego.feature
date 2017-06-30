@@ -5,6 +5,7 @@ Característica:
 	Queremos adivinar la palabra
 	Para ganar la partida
 
+
 Escenario: debo poder visualizar un titulo de Game Over
 	Dado que finaliza el juego
 	Y "Ganaste"
