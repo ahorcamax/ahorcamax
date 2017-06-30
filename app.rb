@@ -13,5 +13,10 @@ post '/jugar' do
 end
 
 get '/finalizar' do
-	erb(:finalizar)
+	if session["palabra"]
+		erb(:finalizar)
+	else 
+		erb(:index)
+	end
+	
 end

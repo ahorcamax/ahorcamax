@@ -1,5 +1,9 @@
+Dado(/^que abro el juego$/) do
+  visit '/'
+end
+
 Dado(/^me encuentro en la pantalla jugar$/) do
-	visit '/'
+	visit '/jugar/1'
 end
 
 Entonces(/^visualizo el campo de la palabra a adivinar "([^"]*)"$/) do |texto|	
