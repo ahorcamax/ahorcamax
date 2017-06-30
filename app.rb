@@ -5,6 +5,6 @@ get '/' do
 	erb(:index)
 end
 
-get '/jugar' do
+get '/finalizar' do
 	erb(:finalizar)
 end
