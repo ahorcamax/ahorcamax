@@ -7,7 +7,7 @@ Característica:
 
 Escenario: Debo visualizar las casillas de la palabra a encontrar
 	Dado me encuentro en la pantalla jugar
-	Entonces visualizo el campo de la palabra a adivinar "- - - - -" 
+	Entonces visualizo el campo de la palabra a adivinar "palabra" 
 
 
 Escenario: Debo poder ingresar una letra
