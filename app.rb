@@ -20,10 +20,6 @@ post '/jugar2' do
 end
 
 get '/finalizar' do
-	if session["palabra"]
-		erb(:finalizar)
-	else 
-		erb(:index)
-	end
+	erb(:finalizar)
 	
 end
