@@ -7,7 +7,7 @@ Dado(/^me encuentro en la pantalla jugar$/) do
 end
 
 Entonces(/^visualizo el campo de la palabra a adivinar "([^"]*)"$/) do |texto|	
-	expect(page.body).to match /#{texto}/m
+	fill_in("palabra", :with => texto)
 end
 
 Entonces(/^ingreso una letra en la caja "([^"]*)"$/) do |texto|
