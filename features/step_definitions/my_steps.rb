@@ -1,13 +1,13 @@
 Dado(/^me encuentro en la pantalla jugar$/) do
-	visit '/'
+	visit '/jugar1'
 end
 
 Entonces(/^visualizo el campo de la palabra a adivinar "([^"]*)"$/) do |texto|	
 	expect(page.body).to match /#{texto}/m
 end
 
-Entonces(/^ingreso una letra en la caja "([^"]*)"$/) do |arg1|
-
+Entonces(/^ingreso una letra en la caja "([^"]*)"$/) do |texto|
+	fill_in("ingreseLetra", :with => texto)
 end
 
 
