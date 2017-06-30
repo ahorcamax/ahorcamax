@@ -16,3 +16,7 @@ Escenario: Debo poder ingresar una letra
 
 
 Escenario: Debo poder validar la letra ingresada
+	Dado me encuentro en la pantalla jugar
+	Cuando ingreso una letra en la caja "ingreseLetra"
+	Y presiono el boton "Validar" 
+	Entonces visualizo el campo de la palabra a adivinar "_ _ _ _ _"

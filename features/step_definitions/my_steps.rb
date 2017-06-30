@@ -10,3 +10,8 @@ Entonces(/^ingreso una letra en la caja "([^"]*)"$/) do |texto|
 	fill_in("ingreseLetra", :with => texto)
 end
 
+Cuando(/^presiono el boton "([^"]*)"$/) do |btn|
+	click_button(btn)
+end
+
+
